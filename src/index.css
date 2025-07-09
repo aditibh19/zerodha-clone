@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.paracolor{
+    color: #666666;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerlist{
+    line-height: 2;
+    font-size: 17px;
+    color: #666666;
+}
+
+.footerlist:hover{
+    color: #387ED1;
+}
+
+@media (max-width: 760px) {
+    .platforms {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ToRemove{
+        display: none;
+    }
+}
